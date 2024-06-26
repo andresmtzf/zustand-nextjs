@@ -20,7 +20,7 @@ export default function ContainerPost({ post }: PostType) {
   }, [setPost, post])
 
   return (
-    <div className='container mx-auto'>
+    <div className='container mx-auto mt-4'>
       <div className='grid gap-4 grid-cols-3 grid-rows-3'>
         <Post />
         <Post />
